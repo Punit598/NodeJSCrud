@@ -1,0 +1,5 @@
+{
+    "getAllUser" : "SELECT TOP(5) * FROM [dbo].[users]",
+    "getUserById":"DELETE FROM [dbo].[users] WHERE userid = @userid"
+}
+
